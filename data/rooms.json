@@ -1,0 +1,5 @@
+    [
+        {"id": 1, "name": "Deluxe Room", "type": "Single", "price": 200},
+        {"id": 2, "name": "Family Suite", "type": "Double", "price": 400},
+        {"id": 3, "name": "Presidential Suite", "type": "Suite", "price": 600}
+    ]
