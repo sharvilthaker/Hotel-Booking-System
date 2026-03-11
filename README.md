@@ -97,4 +97,4 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser.
 ## 👨‍💻 Author
 
 **Sharvil Thaker**
-Halifax, Canada | [sharvillthaker33@gmail.com](mailto:sharvillthaker33@gmail.com) | [LinkedIn](#) | [GitHub](#)
+Halifax, Canada | sharvillthaker33@gmail.com
