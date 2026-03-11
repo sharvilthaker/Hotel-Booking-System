@@ -2,8 +2,6 @@
 
 > A full-stack hotel reservation app built with PHP & Bootstrap 5. Features room search by type, real-time availability, booking forms with server-side validation, and file-based persistence via JSON & CSV - no database required. Clean MVC-inspired architecture with reusable templating.
 
----
-
 ## 🚀 Features
 
 - 🔎 Dynamic room search and filtering engine using JSON/CSV data sources
@@ -13,8 +11,6 @@
 - 🔒 Secure booking workflows ensuring data consistency and form security
 - 📱 Responsive UI supporting 100 simulated concurrent sessions
 
----
-
 ## 🛠 Tech Stack
 
 | Layer | Technology |
@@ -23,8 +19,6 @@
 | Front-end | HTML5, CSS3, Bootstrap 5 |
 | Data Storage | JSON (room inventory), CSV (booking records) |
 | Architecture | MVC-inspired with reusable templating |
-
----
 
 ## 📁 Project Structure
 
@@ -43,28 +37,12 @@ hotel-booking-app/
     ├── rooms.json         # Room inventory (id, name, type, price)
     └── bookings.csv       # Append-only booking records
 ```
-
----
-
-## 🧠 Key Concepts Demonstrated
-
-- **File-based persistence** using `fopen`, `fputcsv`, `file_get_contents`, and `json_decode`
-- **Form handling** with `$_GET` (search/filter) and `$_POST` (booking submission)
-- **Input sanitization** using `htmlspecialchars()` and `trim()` to prevent XSS
-- **Date validation logic** using `strtotime()` for Unix timestamp comparison
-- **Array filtering** with `array_filter()` and anonymous functions for room search
-- **Templating** via PHP `include` for DRY, reusable page components
-- **Bootstrap 5** for responsive layout and styled UI components
-
----
-
 ## 📊 Performance Highlights
 
 - Reduced lookup time by **40%** through an optimized dynamic search and filtering engine
 - Supports **100 simulated concurrent sessions** with consistent booking workflows
 - Ensured **100% data consistency** through dual-layer validation (client + server)
 
----
 
 ## 🚀 Getting Started
 
@@ -103,4 +81,4 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser.
 ## 👨‍💻 Author
 
 **Sharvil Thaker**
-Halifax, Canada | [sharvillthaker33@gmail.com](mailto:sharvillthaker33@gmail.com) | [LinkedIn](#) | [GitHub](#)
+Halifax, Canada | sharvillthaker33@gmail.com
